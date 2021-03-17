@@ -14,7 +14,14 @@
  *= require_self
  */
  @import "bulma";
+ html{
+ 	height: 100%;
+ }
 
+body{
+	 background-image: linear-gradient(to right top, #a4a4a4, #b9b8b9, #cecdce, #e4e2e2, #fbf7f7);
+	min-height: 100%;
+}
  .navbar-brand .title {
  	color: white;
  }
